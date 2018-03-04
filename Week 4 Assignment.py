@@ -180,3 +180,5 @@ print (m2)
 mc1 = multi.MultiComparison(training_target['incomeperperson'], training_target['cluster'])
 res1 = mc1.tukeyhsd()
 print(res1.summary())
+
+#Conclusion - The relust of this task shows that income per person in the first group (cluster 0) is over than 8 times less thanin the second group (cluster 1)
